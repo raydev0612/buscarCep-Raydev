@@ -105,8 +105,10 @@ const styles = StyleSheet.create({
   },
   topBar: {
     flexDirection: "row",
-    height: 70,
+    height: 80,
     backgroundColor: "#018786",
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   title: {
     color: "#fff",
@@ -114,6 +116,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     alignSelf: "center",
     margin: 20,
+    marginTop: 30
   },
   containerCep: {
     flexDirection: "row",
